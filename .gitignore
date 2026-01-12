@@ -16,3 +16,7 @@ pytorch_experiments/**/Results/
 
 # Logs
 *.log
+
+# Datasets
+MNIST/
+pytorch_experiments/**/MNIST/
