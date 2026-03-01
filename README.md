@@ -42,13 +42,13 @@ The project was carried out in three escalating stages:
 The OAF head allowed the optimizer to find the bottom of the loss landscape flawlessly, achieving **~99.2% test accuracy** with zero gradient stalling.
 
 *(Add your ResNet plot here - save your uploaded image as `resnet_training_metrics.png` in a `plots` folder)*
-![ResNet-18 Training Progress](resnet_experiments/plots/resnet_training_metrics.png)
+![ResNet-18 Training Progress](resnet_experiments/Results/resnet_training_metrics.png)
 
 ### Phase 3: VGG-16 + OAF Head (The Final Boss)
 Despite VGG-16's lack of skip connections and massive 130M+ parameter count, the OAF head completely stabilized the learning process. Loss plummeted smoothly, and the network easily climbed to **~99.2% accuracy**, proving the OAF solves gradient death in historically stubborn architectures.
 
 *(Add your VGG plot here - save your uploaded image as `vgg_training_metrics.png` in a `plots` folder)*
-![VGG-16 Training Progress](resnet/experiments/plots/vgg_training_metrics.png)
+![VGG-16 Training Progress](vgg_experiments\Results\vgg_training_metrics.png)
 
 ### Summary Table
 | Architecture | Classification Head | Gradient Behavior | Peak Accuracy |
